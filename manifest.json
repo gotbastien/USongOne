@@ -1,0 +1,26 @@
+{
+	"manifest_version" :2,
+
+	"name" :"My first extension",
+
+	"version" :"1.0",
+	"description" :"Le truc du tutoriel",
+
+
+	"browser_action" : {
+			"default_icon" : "",
+			"default_popup" :"dire_bonjour.html",
+			"default_title": "Download this song!"
+	},
+
+    //"background": {
+    //	"scripts": ["eventPage.js"],
+    //	"persistent": false
+  	//},
+
+    "permissions": [
+ 	    "activeTab",
+    	"https://ajax.googleapis.com/"
+  	]
+
+}
